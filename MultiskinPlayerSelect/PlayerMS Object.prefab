@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1735897167096962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4422780840612568}
+  - component: {fileID: 114433609615686834}
+  - component: {fileID: 114732367811793114}
+  m_Layer: 0
+  m_Name: PlayerMS Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4422780840612568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735897167096962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1848495, y: -0.83334017, z: -1.4126334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114433609615686834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735897167096962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8ca71ca01d2fb4098cb42abc5eceb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 2213920135882650261, guid: c844a5cc2ffaaa64da59d3a6971fc4b0, type: 3}
+  behaviour: MultiSkinPlayer
+  targets:
+  - name: export
+    value: {fileID: 114732367811793114}
+--- !u!114 &114732367811793114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735897167096962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53a71c6a7b01e1449208c55b04f1aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bools: []
+  ints: []
+  floats: []
+  strings: []
+  vectors: []
+  rotations: []
+  colors: []
+  gradients: []
+  textures: []
+  sprites: []
+  audioClips: []
+  materials: []
+  animationCurves: []
+  gameObjects: []
+  skins:
+  - id: Skin1
+    value:
+      name: YourSoldiersName-1
+      characterSkin:
+        mesh: {fileID: -1162622570209261386, guid: 00cc2d6139bdf7c438cd0953d9c11d6f, type: 3}
+        materials:
+        - {fileID: 2100000, guid: 763fc34413539fc409e76cd3d9863e0f, type: 2}
+        - {fileID: 2100000, guid: f0261fd0fe2ac134b969ac9553c951f6, type: 2}
+        teamMaterial: -1
+      armSkin:
+        mesh: {fileID: 0}
+        materials: []
+        teamMaterial: 0
+      kickLegSkin:
+        mesh: {fileID: 0}
+        materials: []
+        teamMaterial: 0
+      rigSettings:
+        version: 1
+  - id: Skin2
+    value:
+      name: YourSoldiersName-2
+      characterSkin:
+        mesh: {fileID: -1483483281898163045, guid: ecb2a736ec2d0664086df7711e42e3b2, type: 3}
+        materials:
+        - {fileID: 2100000, guid: 763fc34413539fc409e76cd3d9863e0f, type: 2}
+        - {fileID: 2100000, guid: 1364632614173f840b108e60c48e71e0, type: 2}
+        teamMaterial: -1
+      armSkin:
+        mesh: {fileID: 0}
+        materials: []
+        teamMaterial: 0
+      kickLegSkin:
+        mesh: {fileID: 0}
+        materials: []
+        teamMaterial: 0
+      rigSettings:
+        version: 1
+  weaponEntries: []
